@@ -1,10 +1,10 @@
-import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
-import { CustomerDTO } from '../../models/customer-dto';
-import { environment } from '../../../environments/environment';
-import { CustomerRegistrationRequest } from '../../models/customer-registration-request';
-import { CustomerUpdateRequest } from '../../models/customer-update-request';
+import {Injectable} from '@angular/core';
+import {HttpClient} from '@angular/common/http';
+import {Observable} from 'rxjs';
+import {CustomerDTO} from '../../models/customer-dto';
+import {environment} from '../../../environments/environment';
+import {CustomerRegistrationRequest} from '../../models/customer-registration-request';
+import {CustomerUpdateRequest} from '../../models/customer-update-request';
 
 @Injectable({
   providedIn: 'root'

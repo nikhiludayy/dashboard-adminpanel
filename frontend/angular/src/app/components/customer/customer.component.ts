@@ -1,8 +1,8 @@
-import { Component, OnInit } from '@angular/core';
-import { CustomerDTO } from '../../models/customer-dto';
-import { CustomerService } from '../../services/customer/customer.service';
-import { CustomerRegistrationRequest } from '../../models/customer-registration-request';
-import { ConfirmationService, MessageService } from 'primeng/api';
+import {Component, OnInit} from '@angular/core';
+import {CustomerDTO} from '../../models/customer-dto';
+import {CustomerService} from '../../services/customer/customer.service';
+import {CustomerRegistrationRequest} from '../../models/customer-registration-request';
+import {ConfirmationService, MessageService} from 'primeng/api';
 
 @Component({
   selector: 'app-customer',

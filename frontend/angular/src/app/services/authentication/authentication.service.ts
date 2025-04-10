@@ -1,9 +1,9 @@
-import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { AuthenticationRequest } from '../../models/authentication-request';
-import { Observable } from 'rxjs';
-import { AuthenticationResponse } from '../../models/authentication-response';
-import { environment } from '../../../environments/environment';
+import {Injectable} from '@angular/core';
+import {HttpClient} from '@angular/common/http';
+import {AuthenticationRequest} from '../../models/authentication-request';
+import {Observable} from 'rxjs';
+import {AuthenticationResponse} from '../../models/authentication-response';
+import {environment} from '../../../environments/environment';
 
 @Injectable({
   providedIn: 'root'

@@ -1,7 +1,7 @@
-import { Component } from '@angular/core';
-import { MenuItem } from 'primeng/api';
-import { AuthenticationResponse } from '../../models/authentication-response';
-import { Router } from '@angular/router';
+import {Component} from '@angular/core';
+import {MenuItem} from 'primeng/api';
+import {AuthenticationResponse} from '../../models/authentication-response';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-header-bar',

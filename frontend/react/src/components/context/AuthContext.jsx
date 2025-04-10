@@ -1,10 +1,5 @@
-import {
-    createContext,
-    useContext,
-    useEffect,
-    useState
-} from "react";
-import {getCustomers, login as performLogin} from "../../services/client.js";
+import {createContext, useContext, useEffect, useState} from "react";
+import {login as performLogin} from "../../services/client.js";
 import jwtDecode from "jwt-decode";
 
 const AuthContext = createContext({});

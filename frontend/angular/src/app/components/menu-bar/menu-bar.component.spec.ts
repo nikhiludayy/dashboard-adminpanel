@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { MenuBarComponent } from './menu-bar.component';
+import {MenuBarComponent} from './menu-bar.component';
 
 describe('MenuBarComponent', () => {
   let component: MenuBarComponent;
